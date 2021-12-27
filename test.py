@@ -23,4 +23,4 @@ class InsAir(feapder.AirSpider):
         return request
 
 if __name__ == "__main__":
-    InsAir(thread_count=1).start()
+    InsAir().start()
